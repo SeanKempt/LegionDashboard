@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#page_container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#header_container {
+    background-color: purple;
+}
+
+#main_container {
+    background-color: aqua;
+    grid-column: 2;
+    grid-row: 2 /4;
+}
+
+#sidebar_container {
+    background-color: red;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+
+
