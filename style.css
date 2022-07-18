@@ -22,6 +22,7 @@ ul {
 
 ul img {
     vertical-align: middle;
+    padding-right: 10px;
 }
 
 #logo>img {
@@ -70,7 +71,7 @@ input[type=text] {
     grid-column:  1 / 2;
     grid-row: 2;
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
     padding-top: 10px;
 }
 
@@ -88,6 +89,9 @@ input[type=text] {
     margin-right: 30px;
 }
 
+#logo {
+    margin-left: 20px;
+}
 
 #main_container {
     display: grid;
@@ -123,12 +127,18 @@ input[type=text] {
     padding-top: 12px;
 }
 
+#annoucement_title {
+    padding-bottom: 7px;
+    margin-bottom: 8px;
+}
+
 #button_container {
     display: flex;
     grid-row: 2;
     grid-column: 2 / 5;
     height: 50%;
     margin-top: 10%;
+    justify-content: space-between;
 }
 
 .project-card {
@@ -138,6 +148,32 @@ input[type=text] {
     padding-left: 35px;
     padding-right: 35px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.mentions, .annoucement-title {
+    font-weight: bold;
+}
+
+.trending-profiles {
+    display: flex;
+    padding: 15px;
+}
+
+#sidebar1 li {
+    padding-bottom: 20px;
+}
+
+#sidebar2 li {
+    padding-bottom: 20px;
+}
+
+#sidebar2 {
+    margin-top: 90px;
+}
+
+#trending_title {
+    margin-bottom: 8px;
+    padding-bottom: 7px;
 }
 
 #annoucements, #trending{
@@ -180,8 +216,8 @@ input[type=text] {
 
 #profile_picture_sm {
     border-radius: 50px;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     margin-right: 20px;
 }
 
